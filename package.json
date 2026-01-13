@@ -1,0 +1,12 @@
+{
+  "name": "project-runner",
+  "version": "1.0.0",
+  "description": "A script to run both the backend and frontend.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd ./TaskManager_API && dotnet build && dotnet run\" \"cd ./taskmanaget-webapp && npm run start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
