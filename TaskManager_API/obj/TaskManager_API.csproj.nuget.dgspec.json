@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/kamil/Desktop/Studia/Programowanie_Inzynieria/TaskManager_API/TaskManager_API.csproj",
         "projectName": "TaskManager_API",
         "projectPath": "/home/kamil/Desktop/Studia/Programowanie_Inzynieria/TaskManager_API/TaskManager_API.csproj",
-        "packagesPath": "/home/kamil/.nuget/packages/",
+        "packagesPath": "/root/.nuget/packages/",
         "outputPath": "/home/kamil/Desktop/Studia/Programowanie_Inzynieria/TaskManager_API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/kamil/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

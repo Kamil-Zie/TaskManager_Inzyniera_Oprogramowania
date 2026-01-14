@@ -116,3 +116,4 @@ C:/Users/kamil/source/repos/Programowanie_Obiektowe/TaskManager_API/obj/Debug/ne
 /home/kamil/Desktop/Studia/Programowanie_Inzynieria/TaskManager_API/obj/Debug/net8.0/TaskManager_API.pdb
 /home/kamil/Desktop/Studia/Programowanie_Inzynieria/TaskManager_API/obj/Debug/net8.0/TaskManager_API.genruntimeconfig.cache
 /home/kamil/Desktop/Studia/Programowanie_Inzynieria/TaskManager_API/obj/Debug/net8.0/ref/TaskManager_API.dll
+/home/kamil/Desktop/Studia/Programowanie_Inzynieria/TaskManager_API/obj/Debug/net8.0/TaskManager_API.sourcelink.json
