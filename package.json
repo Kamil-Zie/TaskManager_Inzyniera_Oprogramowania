@@ -4,7 +4,7 @@
   "description": "A script to run both the backend and frontend.",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"cd ./TaskManager_API && sudo dotnet build && sudo dotnet run\" \"cd ./taskmanager-webapp && sudo npm run start\""
+    "start": "concurrently \"cd ./TaskManager_API && dotnet build && dotnet run\" \"cd ./taskmanager-webapp && npm run start\" \"cd ./TaskManager_API.Tests && dotnet build && dotnet test\""
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

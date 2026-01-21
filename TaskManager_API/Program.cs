@@ -18,7 +18,7 @@ builder.Services.Configure<TaskManagerDataBaseSettings>(
 builder.Services.AddSingleton<ITaskManagerService, TaskManagerService>();
 
 var app = builder.Build();
-
+builder.WebHost.UseUrls("http://*:5130");
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");

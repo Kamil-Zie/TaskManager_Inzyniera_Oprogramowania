@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { TextField, Button } from '@mui/material';
 
 const AddTaskForm = ({ addTask }) => {
@@ -15,7 +15,14 @@ const AddTaskForm = ({ addTask }) => {
     setTaskDateEnd('');
   };
 
+  useEffect(() => {
+    const today = new Date().toISOString().split('T')[0];
+    setTaskDateStart(today);
+    setTaskDateEnd(today);
+  }, []);
+
   return (
+    
     <form onSubmit={handleSubmit}>
       <TextField
         label="Task Name"
