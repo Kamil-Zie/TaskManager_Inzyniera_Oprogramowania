@@ -14,7 +14,7 @@ Frontend jest aplikacją React, która komunikuje się z backendem, aby wyświet
 - Node.js (zalecana wersja 16 lub nowsza)
 - npm (Node Package Manager)
 
-## 3. Testy (TaskManager_API.Test)
+## 3. Testy (TaskManager_API.Tests)
 
 ### Wymagania:
 - Środowisko .NET 8.0 SDK
