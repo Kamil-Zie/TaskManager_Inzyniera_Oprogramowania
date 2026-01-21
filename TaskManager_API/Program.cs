@@ -15,7 +15,7 @@ builder.Services.Configure<TaskManagerDataBaseSettings>(
     builder.Configuration.GetSection("TaskManagerDatabase"));
 
 //TaskManager Routing Service
-builder.Services.AddSingleton<TaskManagerService>();
+builder.Services.AddSingleton<ITaskManagerService, TaskManagerService>();
 
 var app = builder.Build();
 

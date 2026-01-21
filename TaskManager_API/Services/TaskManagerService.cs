@@ -5,7 +5,7 @@ using TaskManager_API.Models;
 
 namespace TaskManager_API.Services
 {
-    public class TaskManagerService
+    public class TaskManagerService : ITaskManagerService
     {
         private readonly IMongoCollection<Models.Task> _taskCollection;
 

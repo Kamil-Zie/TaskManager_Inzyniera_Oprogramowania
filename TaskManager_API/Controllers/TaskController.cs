@@ -9,8 +9,8 @@ namespace TaskManager_API.Controllers
     [EnableCors("Allow")]
     public class TaskController : ControllerBase
     {
-        private readonly Services.TaskManagerService _taskManagerService;
-        public TaskController(Services.TaskManagerService taskManagerService)
+        private readonly Services.ITaskManagerService _taskManagerService;
+        public TaskController(Services.ITaskManagerService taskManagerService)
         {
             _taskManagerService = taskManagerService;
         }
