@@ -20,4 +20,5 @@ Frontend jest aplikacją React, która komunikuje się z backendem, aby wyświet
 - Środowisko .NET 8.0 SDK
 
 ## Pełne uruchomienie aplikacji
+ - `npm i`
  - `npm run start`
